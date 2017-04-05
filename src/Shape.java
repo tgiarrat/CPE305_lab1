@@ -17,4 +17,6 @@ public abstract class Shape {
 	public void setShapeModifier(ShapeModifier sm) {
 		this.sm = sm;
 	}
+
+	
 }

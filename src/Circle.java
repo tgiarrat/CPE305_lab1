@@ -18,4 +18,12 @@ public class Circle extends Shape {
 	public Point getCenter() {
 		return center;
 	}
+	
+	public void setRadius(double d) {
+		radius = d;
+	}
+	
+	public double getRadius() {
+		return radius;
+	}
 }
