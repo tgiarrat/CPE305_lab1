@@ -20,6 +20,10 @@ public class Triangle extends Shape {
 		double b = Math.abs(y2-y1);
 		return Math.sqrt(((a * a) + (b * b)));
 	}
-	
 
+	@Override
+	public double calculateArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }

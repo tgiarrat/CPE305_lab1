@@ -1,8 +1,4 @@
 
 public interface ShapePrinter {
-
-	//circle printer
-	
-	//rectangle printer 
-	
+	public void print(Shape shape);
 }

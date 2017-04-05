@@ -1,18 +1,20 @@
-import java.math.*;
 import java.awt.Point;
 
-public abstract class Shape implements ShapeModifier, ShapePrinter{
+public abstract class Shape {
+	private Point centerOfMass;
+	private ShapePrinter sp;
+	private ShapeModifier sm;
+	public abstract double calculateArea();
+	
+	public Point getCenterOfMass() {
+		return centerOfMass;
+	}
+	
+	public void setShapePrinter(ShapePrinter sp) {
+		this.sp = sp;
+	}
 
-	
-	
-	//double compute_area();
-	
-	//int compute_center_mass();
-	
-	//void scale(int factor);
-	
-	//void rotate(int num_degrees);
-	
-	//void print();
-	
+	public void setShapeModifier(ShapeModifier sm) {
+		this.sm = sm;
+	}
 }
