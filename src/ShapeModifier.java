@@ -1,8 +1,8 @@
 
 public interface ShapeModifier {
 
-	//circle scale
+	void scale(Shape shape, int factor);
 	
-	//rectangle rotate ....
+	void rotate();
 	
 }
