@@ -10,6 +10,14 @@ public abstract class Shape {
 		return centerOfMass;
 	}
 	
+	public ShapePrinter getShapePrinter() {
+		return sp;
+	}
+
+	public ShapeModifier getShapeModifier() {
+		return sm;
+	}
+	
 	public void setShapePrinter(ShapePrinter sp) {
 		this.sp = sp;
 	}

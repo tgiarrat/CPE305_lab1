@@ -8,6 +8,7 @@ public class Circle extends Shape {
 	public Circle(Point center, int radius) {
 		this.radius = radius;
 		this.center = center;
+		setShapePrinter(new CirclePrinter());
 	}
 
 	@Override
@@ -17,5 +18,9 @@ public class Circle extends Shape {
 	
 	public Point getCenter() {
 		return center;
+	}
+	
+	public void setCenter(Point center) {
+		this.center = center;
 	}
 }
