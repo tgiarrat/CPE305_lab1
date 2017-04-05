@@ -22,10 +22,26 @@ public class Driver {
 		   d) generate text output of the 3 modified shapes
 		 */
 		
-		Circle circle = new Circle(new Point(0,0),5);
-		Rectangle rectangle = new Rectangle(new Point(3,3),5,8); 
+		Circle circle = new Circle(new Point(0,0), 5);
+		Rectangle rectangle = new Rectangle(new Point(3,3), 5, 8); 
 		Triangle triangle = new Triangle(new Point(-2,0),new Point(2,0),new Point(0,4));
 		
+		System.out.println("Print output:");
+		circle.getShapePrinter().print(circle);
+		rectangle.getShapePrinter().print(rectangle);
+		triangle.getShapePrinter().print(triangle);
+		System.out.println();
+		
+		System.out.println("Modifying shapes...");
+		circle.getShapeModifier().scale(circle, 2);
+		rectangle.getShapeModifier().rotate(45);
+		triangle.getShapeModifier().scale(triangle, 3);
+		System.out.println();
+
+		System.out.println("Print output:");
+		circle.getShapePrinter().print(circle);
+		rectangle.getShapePrinter().print(rectangle);
+		triangle.getShapePrinter().print(triangle);
 	}
 
 }

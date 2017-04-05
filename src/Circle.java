@@ -9,6 +9,7 @@ public class Circle extends Shape {
 		this.radius = radius;
 		this.center = center;
 		setShapePrinter(new CirclePrinter());
+		setShapeModifier(new CircleModifier());
 	}
 
 	@Override
