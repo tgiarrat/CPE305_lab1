@@ -1,16 +1,18 @@
 import java.math.*;
+import java.awt.Point;
 
+public abstract class shape implements ShapeModifier, ShapePrinter{
 
-public interface shape {
-
-	double compute_area();
 	
-	int compute_center_mass();
 	
-	void scale(int factor);
+	//double compute_area();
 	
-	void rotate(int num_degrees);
+	//int compute_center_mass();
 	
-	void print();
+	//void scale(int factor);
+	
+	//void rotate(int num_degrees);
+	
+	//void print();
 	
 }

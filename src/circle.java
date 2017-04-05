@@ -1,42 +1,16 @@
 
+import java.awt.Point;
 
-public class circle implements shape {
+public class circle extends shape {
 
-	private int radius, x, y;
+	private int radius;
+	private Point center;
 	
-	public circle(int x, int y, int radius) {
+	public circle(Point center, int radius) {
 		this.radius = radius;
-		this.x = x;
-		this.y = y;
+		this.center = center;
 	}
 	
-	@Override
-	public double compute_area() {
-		return Math.PI * radius *radius;
-	}
-
-	@Override
-	public int compute_center_mass() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void scale(int factor) {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void rotate(int num_degrees) {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void print() {
-		// TODO Auto-generated method stub
-
-	}
+	
 
 }

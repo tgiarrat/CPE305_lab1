@@ -1,43 +1,17 @@
+import java.awt.Point;
 
-public class rectangle implements shape {
+public class rectangle extends shape {
 
-	private int x,y, width, height;
+	private int width, height;
+	Point lower_left;
 	
-	public rectangle(int x, int y, int width, int height){ 
-		this.x = x;
-		this.y = y;
+	public rectangle(Point lower_left, int width, int height){ 
+		this.lower_left = lower_left;
 		this.width = width;
 		this.height = height;
 	}
 	
 	
-	@Override
-	public double compute_area() {
-		return width * height;
-	}
-
-	@Override
-	public int compute_center_mass() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public void scale(int factor) {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void rotate(int num_degrees) {
-		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void print() {
-		// TODO Auto-generated method stub
-
-	}
+	
 
 }
