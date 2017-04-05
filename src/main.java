@@ -21,6 +21,10 @@ public class main {
 		   d) generate text output of the 3 modified shapes
 		 */
 		
+		circle circle = new circle(0,0,5);
+		rectangle rectangle = new rectangle(3,3,5,8); 
+		triangle triangle = new triangle(-2,0,2,0,0,4);
+		
 	}
 
 }

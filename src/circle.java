@@ -1,6 +1,14 @@
 
 public class circle implements shape {
 
+	private int radius, x, y;
+	
+	public circle(int x, int y, int radius) {
+		this.radius = radius;
+		this.x = x;
+		this.y = y;
+	}
+	
 	@Override
 	public int compute_area() {
 		// TODO Auto-generated method stub
