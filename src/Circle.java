@@ -10,6 +10,7 @@ public class Circle extends Shape {
 		this.center = center;
 		setShapePrinter(new CirclePrinter());
 		setShapeModifier(new CircleModifier());
+		setCenterOfMass(center);
 	}
 
 	@Override

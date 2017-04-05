@@ -25,6 +25,8 @@ public abstract class Shape {
 	public void setShapeModifier(ShapeModifier sm) {
 		this.sm = sm;
 	}
-
 	
+	public void setCenterOfMass(Point com) {
+		this.centerOfMass = com;
+	}
 }

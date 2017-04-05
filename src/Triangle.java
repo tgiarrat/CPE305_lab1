@@ -11,6 +11,7 @@ public class Triangle extends Shape {
 		
 		setShapePrinter(new TrianglePrinter());
 		setShapeModifier(new TriangleModifier());
+		setCenterOfMass(p1);
 	}
 	
 	@Override
