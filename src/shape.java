@@ -1,3 +1,5 @@
+import java.math.*;
+
 
 public interface shape {
 

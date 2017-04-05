@@ -17,7 +17,9 @@ public class triangle implements shape {
 	}
 	
 	private double compute_length(int x1,int y1,int x2,int y2){
-		return 0;
+		double a = Math.abs(x2-x1);
+		double b = Math.abs(y2-y1);
+		return Math.sqrt(((a * a) + (b * b)));
 	}
 	
 	@Override
