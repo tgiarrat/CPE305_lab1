@@ -12,9 +12,8 @@ public class rectangle implements shape {
 	
 	
 	@Override
-	public int compute_area() {
-		// TODO Auto-generated method stub
-		return 0;
+	public double compute_area() {
+		return width * height;
 	}
 
 	@Override
