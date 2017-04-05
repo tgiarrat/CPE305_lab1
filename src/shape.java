@@ -1,7 +1,7 @@
 
 public interface shape {
 
-	int compute_area();
+	double compute_area();
 	
 	int compute_center_mass();
 	

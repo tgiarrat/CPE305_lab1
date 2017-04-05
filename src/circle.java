@@ -1,3 +1,5 @@
+import java.math.*;
+
 
 public class circle implements shape {
 
@@ -10,9 +12,8 @@ public class circle implements shape {
 	}
 	
 	@Override
-	public int compute_area() {
-		// TODO Auto-generated method stub
-		return 0;
+	public double compute_area() {
+		return Math.PI * radius *radius;
 	}
 
 	@Override
