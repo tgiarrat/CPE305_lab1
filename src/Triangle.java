@@ -1,6 +1,6 @@
 import java.awt.Point;
 
-public class triangle extends shape {
+public class Triangle extends Shape {
 
 	Point p1, p2, p3;
 	//private int x1,y1,x2,y2,x3,y3;
@@ -8,7 +8,7 @@ public class triangle extends shape {
 	//private double length2; //x2,y2 -> x3,y3
 	//private double length3; //x3,y3 -> x1,y1
 	
-	public triangle(Point p1, Point p2, Point p3){
+	public Triangle(Point p1, Point p2, Point p3){
 		this.p1 = p1;
 		this.p2 = p2;
 		this.p3 = p3;

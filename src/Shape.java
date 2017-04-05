@@ -1,7 +1,7 @@
 import java.math.*;
 import java.awt.Point;
 
-public abstract class shape implements ShapeModifier, ShapePrinter{
+public abstract class Shape implements ShapeModifier, ShapePrinter{
 
 	
 	

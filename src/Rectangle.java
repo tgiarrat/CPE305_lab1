@@ -1,11 +1,11 @@
 import java.awt.Point;
 
-public class rectangle extends shape {
+public class Rectangle extends Shape {
 
 	private int width, height;
 	Point lower_left;
 	
-	public rectangle(Point lower_left, int width, int height){ 
+	public Rectangle(Point lower_left, int width, int height){ 
 		this.lower_left = lower_left;
 		this.width = width;
 		this.height = height;

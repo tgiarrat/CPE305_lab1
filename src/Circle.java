@@ -1,12 +1,12 @@
 
 import java.awt.Point;
 
-public class circle extends shape {
+public class Circle extends Shape {
 
 	private int radius;
 	private Point center;
 	
-	public circle(Point center, int radius) {
+	public Circle(Point center, int radius) {
 		this.radius = radius;
 		this.center = center;
 	}

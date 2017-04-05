@@ -1,6 +1,6 @@
 import java.awt.Point;
 
-public class main {
+public class Driver {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -22,9 +22,9 @@ public class main {
 		   d) generate text output of the 3 modified shapes
 		 */
 		
-		circle circle = new circle(new Point(0,0),5);
-		rectangle rectangle = new rectangle(new Point(3,3),5,8); 
-		triangle triangle = new triangle(new Point(-2,0),new Point(2,0),new Point(0,4));
+		Circle circle = new Circle(new Point(0,0),5);
+		Rectangle rectangle = new Rectangle(new Point(3,3),5,8); 
+		Triangle triangle = new Triangle(new Point(-2,0),new Point(2,0),new Point(0,4));
 		
 	}
 
